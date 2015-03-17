@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" 
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+
+<script src="css/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type='text/javascript'></script>
+<script type='text/javascript' src='js/respond.min.js'></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+$('.carousel').carousel({
+  interval: 500
+})
+</script>
+
+ <style>
+      ul {         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      ul li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      ul li img {
+          cursor: pointer;
+      }
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{          
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;          
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }          
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
+  </style>
+</head>
+<body>
+ 
+<div class="container">
+
+<div>
+<a href="home.html">
+<img src="images/logo.png" style="width: 30%; height: 25%;" class="img-responsive" alt=" "/>
+</a>
+</div>
+
+	<div class="navbar-default navbar-collapse" role="navigation">
+              <ul class="nav navbar-nav">
+              
+                <li><a href="#home">Home</a></li>
+    			<li><a href="Gallery.html">Gallery</a></li>
+         		<li><a href="About.html">About Us</a></li>
+           		<li><a href="packages.html">Packages</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+          		
+             </ul>
+	</div>
+
+<!-- =================================== -->
+<script type="text/javascript">//<![CDATA[try{(function(a){var b="http://",c="demo.fearlessflyer.com",d="/cdn-cgi/cl/",e="img.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}//]]></script>
+    <div id="ads" style="padding:25px; 
+                border-left:1px solid #ccc; 
+                border-bottom:1px solid #ccc; 
+                width:200px; 
+                height:200px; 
+                margin:0 0 0 0; 
+                position:absolute; 
+                background:#fff; 
+                right:0; 
+                top:0; 
+                -webkit-box-sizing:content-box !important;
+                box-sizing:content-box !important;
+                ">        
+        <script async src="js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:200px;height:200px"
+             data-ad-client="ca-pub-6163174599932698"
+             data-ad-slot="6189522971"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div class="container">    
+        <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
+            <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+                <a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">Responsive Photo Gallery with Bootstrap <span style="color:red;">Demo</span></a>
+            </h3>
+            <p>Resize your browser and watch the gallery adapt to the view port size. Clicking on an image will activate the Modal. Click <strong><a style="color:red" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">Here</a></strong> to go back to the tutorial</p>
+        </div>
+        
+        <ul class="row">
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/bride3.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/b.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/c.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/fore3.jpg">
+            </li>
+          </ul>             
+    </div> <!-- /container -->
+    
+     
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+
+	
+<!-- ============================== ---->
+
+
+<div class="buttons" >
+<img src="images/line.jpg" style="width:400px; height:5px" />
+<button type="button" class="btn" onClick="parent.location='Gallery.html'" >Weddings</button>
+
+
+
+<button type="button" class="btn" onClick="parent.location='contact.html'">
+Contact Me</button>
+<img src="images/line.jpg" style="width:450px; height:5px"  />
+
+
+</div>
+    
+<div id="footer" style="display:block; margin-right:auto;">
+<a href="https://www.facebook.com/Jonak.Photo" target="_blank"><img src="images/fb.gif" class="social" alt="fb" style="height:30px;width:30px;"/></a>
+<a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" class="social" alt="fb" style="height:30px;width:30px;"/></a>
+<a href="in.linkedin.com/pub/samik-jonak-ghosh/69/584/497" target="_blank"><img src="images/ln.gif" class="social" alt="fb" style="height:30px;width:30px;"/></a>
+</div>
+
+
+</div>
+
+
+</body>
+ <script>
+        $(document).ready(function(){        
+            $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                
+                //start of new code new code
+                var index = $(this).parent('li').index();   
+                
+                var html = '';
+                html += img;                
+                html += '<div style="height:25px;clear:both;display:block;">';
+                html += '<a class="controls next" href="'+ (index+2) + '">next &raquo;</a>';
+                html += '<a class="controls previous" href="' + (index) + '">&laquo; prev</a>';
+                html += '</div>';
+                
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(html);
+                    //new code
+                    $('a.controls').trigger('click');
+                })
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+                
+                
+                
+                
+           });
+        
+        })
+        
+        //new code
+        $(document).on('click', 'a.controls', function(){
+            var index = $(this).attr('href');
+            var src = $('ul.row li:nth-child('+ index +') img').attr('src');             
+            
+            $('.modal-body img').attr('src', src);
+            
+            var newPrevIndex = parseInt(index) - 1; 
+            var newNextIndex = parseInt(newPrevIndex) + 2; 
+            
+            if($(this).hasClass('previous')){               
+                $(this).attr('href', newPrevIndex); 
+                $('a.next').attr('href', newNextIndex);
+            }else{
+                $(this).attr('href', newNextIndex); 
+                $('a.previous').attr('href', newPrevIndex);
+            }
+            
+            var total = $('ul.row li').length + 1; 
+            //hide next button
+            if(total === newNextIndex){
+                $('a.next').hide();
+            }else{
+                $('a.next').show()
+            }            
+            //hide previous button
+            if(newPrevIndex === 0){
+                $('a.previous').hide();
+            }else{
+                $('a.previous').show()
+            }
+            
+            
+            return false;
+        });
+        
+         
+        
+    </script>
+
+</html>

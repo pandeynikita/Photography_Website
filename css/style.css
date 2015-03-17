@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image: url(../images/backgr.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+.resize{
+	height:60%;
+	width:50%;
+	}
+	
+
+	
+h1{
+	color:#F66;
+	padding-bottom:0px;
+	padding-top:0px;}
+
+h3{
+	color:#66C;	
+}
+
+.text2{
+color:#CF0;	
+}
+.row-fluid .span3NoGutter { width:25% }
+.row-fluid [class*="NoGutter"] { margin-left:0 }	
+	
+#map_canvas {
+        width: 500px;
+        height: 400px;
+}
+
+#footer{
+			margin-left:500px;
+			alignment-adjust:middle;
+			padding-top:10px;
+}
+
+.buttons{
+			margin-left:50px;
+			color:#000;
+			font-weight:100;
+			display:inline-block;
+			}
+
+.car{
+
+padding-top:2%;
+padding-bottom:2%;
+	
+}
+.banner { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 span{ 
+   position: absolute; 
+   z-index:100;
+   text-align: center; 
+   width: 100%; 
+   padding:10px 5px;
+}
+
+.inner{
+display:inline-block;
+border:groove;
+border-width:thin;
+color:#9C0;
+font-size:14px;
+
+	
+}
+
+.imgsize{
+width:325px;
+height:258px;
+	
+}
